@@ -10,8 +10,9 @@ public class WelcomeMessage {
     private static Logger log = Logger.getLogger(WelcomeMessage.class.getName());
 
     public static void main(String[] args) {
-        System.out.println(setMessage()+" "+setTime());
         log.info("Greeting message.");
+        System.out.println("hey");
+        System.out.println(setMessage()+" "+setTime());
     }
 
     public static String setPartOfDay(){
